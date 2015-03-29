@@ -2,9 +2,6 @@
 //  main.m
 //  Test
 //
-//  Created by Falk, Geronimo on 29/03/2015.
-//  Copyright (c) 2015 Falk, Geronimo. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 
