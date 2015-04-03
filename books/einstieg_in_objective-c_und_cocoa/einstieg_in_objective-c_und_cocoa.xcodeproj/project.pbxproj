@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF759BC91ACF218C001F6B38 /* Chapter4.m in Sources */ = {isa = PBXBuildFile; fileRef = FF759BC81ACF218C001F6B38 /* Chapter4.m */; };
 		FF96239A1ACC3E8A003BF016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9623991ACC3E8A003BF016 /* main.m */; };
 		FF9623A21ACC3EC2003BF016 /* Chapter2.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9623A11ACC3EC2003BF016 /* Chapter2.m */; };
 		FF9623A51ACC492A003BF016 /* Chapter3.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9623A41ACC492A003BF016 /* Chapter3.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF759BC71ACF218C001F6B38 /* Chapter4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter4.h; sourceTree = "<group>"; };
+		FF759BC81ACF218C001F6B38 /* Chapter4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter4.m; sourceTree = "<group>"; };
 		FF9623961ACC3E8A003BF016 /* einstieg_in_objective-c_und_cocoa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "einstieg_in_objective-c_und_cocoa"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9623991ACC3E8A003BF016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF9623A01ACC3EC2003BF016 /* Chapter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter2.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				FF9623A31ACC492A003BF016 /* Chapter3.h */,
 				FF9623A41ACC492A003BF016 /* Chapter3.m */,
 				FF9623A01ACC3EC2003BF016 /* Chapter2.h */,
+				FF759BC71ACF218C001F6B38 /* Chapter4.h */,
+				FF759BC81ACF218C001F6B38 /* Chapter4.m */,
 				FF9623A11ACC3EC2003BF016 /* Chapter2.m */,
 			);
 			path = "einstieg_in_objective-c_und_cocoa";
@@ -127,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF759BC91ACF218C001F6B38 /* Chapter4.m in Sources */,
 				FF9623A21ACC3EC2003BF016 /* Chapter2.m in Sources */,
 				FF9623A51ACC492A003BF016 /* Chapter3.m in Sources */,
 				FF96239A1ACC3E8A003BF016 /* main.m in Sources */,
@@ -243,6 +249,7 @@
 				FF96239F1ACC3E8A003BF016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

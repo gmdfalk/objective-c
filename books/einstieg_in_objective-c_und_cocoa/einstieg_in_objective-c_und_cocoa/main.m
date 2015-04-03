@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Chapter2.h"
 #import "Chapter3.h"
+#import "Chapter4.h"
 
 void printSeparator(NSString* name) {
     NSLog(@"\n\n--------------%@---------------\n", name);
@@ -46,10 +47,28 @@ void chap3() {
     [Chapter3 uebung_1];
 }
 
+void chap4() {
+    printSeparator(@"4.4: nsString");
+    [Chapter4 nsString];
+    printSeparator(@"4.5: nsMutableString");
+    [Chapter4 nsMutableString];
+    printSeparator(@"4.6: verweisId");
+    [Chapter4 verweisId];
+    printSeparator(@"4.7: nsArray");
+    [Chapter4 nsArray];
+    printSeparator(@"4.8: nsMutableArray");
+    [Chapter4 nsMutableArray];
+    printSeparator(@"4.9: nsDictionary");
+    [Chapter4 nsDictionary];
+    printSeparator(@"4.10: Uebung");
+    [Chapter4 uebung];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 //        chap2();
-        chap3();
+//        chap3();
+        chap4();
     }
     return 0;
 }
