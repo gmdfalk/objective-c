@@ -2,9 +2,6 @@
 //  Chapter2.m
 //  einstieg_in_objective-c_und_cocoa
 //
-//  Created by Falk, Geronimo on 01/04/2015.
-//
-//
 
 #import "Chapter2.h"
 

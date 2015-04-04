@@ -2,9 +2,6 @@
 //  Chapter4.m
 //  einstieg_in_objective-c_und_cocoa
 //
-//  Created by Falk, Geronimo on 03/04/15.
-//
-//
 
 #import "Chapter4.h"
 
@@ -39,8 +36,7 @@
 }
 
 +(void) nsMutableString {
-    NSMutableString *textA = //1
-    [[NSMutableString alloc] initWithCapacity:20];
+    NSMutableString *textA = [[NSMutableString alloc] initWithCapacity:20];
     [textA setString:@"Spanien"]; //2
     NSLog(@"%@", textA);
     [textA appendString:@" und Portugal"]; //3
@@ -93,7 +89,9 @@
     NSLog(@"7 %@", arrayA);
     [arrayA exchangeObjectAtIndex:0 withObjectAtIndex:2];
     NSLog(@"8 %@", arrayA);
-    [arrayA sortUsingFunction:vergleich context:NULL]; NSLog(@"9 %@", arrayA);
+    [arrayA sortUsingFunction:vergleich context:NULL];
+//    [arrayA sortUsingSelector:@selector(compare:)];
+    NSLog(@"9 %@", arrayA);
     
 }
 NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
@@ -120,9 +118,44 @@ NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
      [NSNumber numberWithInt:505] forKey:@"Spanien"];
     NSLog(@"%@", flaecheDict);
     
+    for(id key in flaecheDict) {
+        NSLog(@"%@:%@", key, flaecheDict[key]);
+    }
+    
 }
 
 +(void) uebung {
+    int input, count = 5, solvedCount = 0;
+    NSNumber *rand1, *rand2, *result;
+    NSMutableArray *rand1Results, *rand2Results, *inputResults;
+    rand1Results = [NSMutableArray arrayWithCapacity:count];
+    rand2Results = [NSMutableArray arrayWithCapacity:count];
+    inputResults = [NSMutableArray arrayWithCapacity:count];
+    for (int i=0; i < count; i++) {
+        rand1 = [NSNumber numberWithInt:arc4random() % 20 + 1];
+        rand2 = [NSNumber numberWithInt:arc4random() % 20 + 1];
+        result = @([rand1 integerValue] + [rand2 integerValue]);
+        NSLog(@"Bitte ausrechnen: %@ + %@ = ", rand1, rand2);
+        scanf("%d", &input);
+        
+        rand1Results[i] = rand1;
+        rand2Results[i] = rand2;
+        inputResults[i] = [NSNumber numberWithInt:input];
+    }
+    NSMutableString *resultString;
+    for (int i=0; i < count; i++) {
+        resultString = [NSMutableString stringWithString:@"falsch"];
+        result = @([rand1Results[i] intValue] + [rand2Results[i] intValue]);
+        if (inputResults[i] == result) {
+            [resultString setString:@"richtig"];
+            solvedCount++;
+        }
+        NSLog(@"%@ + %@ = %@, Ihre Eingabe ist %@.\n", rand1Results[i], rand2Results[i], result, resultString);
+    }
+    NSLog(@"Sie haben %d von %d Aufgaben richtig geloest.\n", solvedCount, count);
+}
+
++(void) uebungRefactored {
     
 }
 

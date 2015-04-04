@@ -2,9 +2,6 @@
 //  main.m
 //  einstieg_in_objective-c_und_cocoa
 //
-//  Created by Falk, Geronimo on 01/04/2015.
-//
-//
 
 #import <Foundation/Foundation.h>
 #import "Chapter2.h"
@@ -44,7 +41,7 @@ void chap3() {
     printSeparator(@"3.9: Funktionen als Parameter");
     [Chapter3 funktionAlsParameter];
     printSeparator(@"3.10: Uebungen");
-    [Chapter3 uebung_1];
+    [Chapter3 uebung];
 }
 
 void chap4() {

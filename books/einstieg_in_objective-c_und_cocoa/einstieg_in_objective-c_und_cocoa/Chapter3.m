@@ -2,9 +2,6 @@
 //  Chapter3.m
 //  einstieg_in_objective-c_und_cocoa
 //
-//  Created by Falk, Geronimo on 01/04/2015.
-//
-//
 
 #import "Chapter3.h"
 
@@ -159,7 +156,7 @@ void scanner_example() {
     c = a + b;
     printf("%d + %d = %d\n", a, b, c);
 }
-+(void) uebung_1 {
++(void) uebung {
     int rand1, rand2, input, result, count = 5, solvedCount = 0;
     int rand1Results[count], rand2Results[count], inputResults[count];
     for (int i=0; i < count; i++) {
@@ -185,8 +182,5 @@ void scanner_example() {
     }
     printf("Sie haben %d von %d Aufgaben richtig geloest.\n", solvedCount, count);
 }
-//+(void) uebung_2;
-//+(void) uebung_3;
-//+(void) uebung_4;
 
 @end
