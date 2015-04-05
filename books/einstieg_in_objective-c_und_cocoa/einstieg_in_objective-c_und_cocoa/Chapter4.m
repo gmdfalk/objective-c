@@ -92,6 +92,7 @@
     [arrayA sortUsingFunction:vergleich context:NULL];
 //    [arrayA sortUsingSelector:@selector(compare:)];
     NSLog(@"9 %@", arrayA);
+    NSArray *names = @[@"Brian", @"Matt", @"Chris", @"Alex", @"Steve", @"Paul"];
     
 }
 NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
@@ -121,7 +122,7 @@ NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
     for(id key in flaecheDict) {
         NSLog(@"%@:%@", key, flaecheDict[key]);
     }
-    
+    NSDictionary *productManagers = @{@"iPhone" : @"Kate", @"iPad" : @"Kamal", @"Mobile Web" : @"Bill"};
 }
 
 +(void) uebung {
@@ -155,8 +156,30 @@ NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
     NSLog(@"Sie haben %d von %d Aufgaben richtig geloest.\n", solvedCount, count);
 }
 
-+(void) uebungRefactored {
-    
++(void) uebungAlternate {
+    int input, count = 5, solvedCount = 0;
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    NSNumber *rand1, *rand2, *result;
+    NSString *resultString;
+    for (int i=0; i < count; i++) {
+        rand1 = @(arc4random() % 20 + 1);
+        rand2 = @(arc4random() % 20 + 1);
+        result = @([rand1 integerValue] + [rand2 integerValue]);
+        NSLog(@"Bitte ausrechnen: %@ + %@ = ", rand1, rand2);
+        scanf("%d", &input);
+        if (input == [result intValue]) {
+            resultString = @"richtig.";
+            solvedCount++;
+        } else {
+            resultString = @"falsch.";
+        }
+        [dict setObject:[NSString stringWithFormat:@"%@ + %@ = %@, Ihre Eingabe ist %@", rand1, rand2, result, resultString] forKey:[NSNumber numberWithInt:i]];
+    }
+    NSLog(@"length: %ld", dict.count);
+    for (id key in dict) {
+        NSLog(@"%@", dict[key]);
+    }
+    NSLog(@"Sie haben %d von %d Aufgaben richtig geloest.\n", solvedCount, count);
 }
 
 @end

@@ -13,5 +13,6 @@
 +(void) nsMutableArray;
 +(void) nsDictionary;
 +(void) uebung;
++(void) uebungAlternate;
 
 @end

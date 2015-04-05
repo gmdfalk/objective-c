@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FF759BC91ACF218C001F6B38 /* Chapter4.m in Sources */ = {isa = PBXBuildFile; fileRef = FF759BC81ACF218C001F6B38 /* Chapter4.m */; };
+		FF759BD91AD14A27001F6B38 /* Chapter5.m in Sources */ = {isa = PBXBuildFile; fileRef = FF759BD81AD14A27001F6B38 /* Chapter5.m */; };
 		FF96239A1ACC3E8A003BF016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9623991ACC3E8A003BF016 /* main.m */; };
 		FF9623A21ACC3EC2003BF016 /* Chapter2.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9623A11ACC3EC2003BF016 /* Chapter2.m */; };
 		FF9623A51ACC492A003BF016 /* Chapter3.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9623A41ACC492A003BF016 /* Chapter3.m */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		FF759BC71ACF218C001F6B38 /* Chapter4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter4.h; sourceTree = "<group>"; };
 		FF759BC81ACF218C001F6B38 /* Chapter4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter4.m; sourceTree = "<group>"; };
+		FF759BD71AD14A27001F6B38 /* Chapter5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter5.h; sourceTree = "<group>"; };
+		FF759BD81AD14A27001F6B38 /* Chapter5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter5.m; sourceTree = "<group>"; };
 		FF9623961ACC3E8A003BF016 /* einstieg_in_objective-c_und_cocoa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "einstieg_in_objective-c_und_cocoa"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9623991ACC3E8A003BF016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF9623A01ACC3EC2003BF016 /* Chapter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter2.h; sourceTree = "<group>"; };
@@ -47,6 +50,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF759BDA1AD14A30001F6B38 /* Chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+				FF759BD71AD14A27001F6B38 /* Chapter5.h */,
+				FF759BD81AD14A27001F6B38 /* Chapter5.m */,
+			);
+			name = Chapter5;
+			sourceTree = "<group>";
+		};
+		FF759BDB1AD14A3D001F6B38 /* Chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				FF759BC71ACF218C001F6B38 /* Chapter4.h */,
+				FF759BC81ACF218C001F6B38 /* Chapter4.m */,
+			);
+			name = Chapter4;
+			sourceTree = "<group>";
+		};
+		FF759BDC1AD14A44001F6B38 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				FF9623A31ACC492A003BF016 /* Chapter3.h */,
+				FF9623A41ACC492A003BF016 /* Chapter3.m */,
+			);
+			name = Chapter3;
+			sourceTree = "<group>";
+		};
+		FF759BDD1AD14A4C001F6B38 /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				FF9623A11ACC3EC2003BF016 /* Chapter2.m */,
+				FF9623A01ACC3EC2003BF016 /* Chapter2.h */,
+			);
+			name = Chapter2;
+			sourceTree = "<group>";
+		};
 		FF96238D1ACC3E8A003BF016 = {
 			isa = PBXGroup;
 			children = (
@@ -67,12 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				FF9623991ACC3E8A003BF016 /* main.m */,
-				FF9623A31ACC492A003BF016 /* Chapter3.h */,
-				FF9623A41ACC492A003BF016 /* Chapter3.m */,
-				FF9623A01ACC3EC2003BF016 /* Chapter2.h */,
-				FF759BC71ACF218C001F6B38 /* Chapter4.h */,
-				FF759BC81ACF218C001F6B38 /* Chapter4.m */,
-				FF9623A11ACC3EC2003BF016 /* Chapter2.m */,
+				FF759BDD1AD14A4C001F6B38 /* Chapter2 */,
+				FF759BDC1AD14A44001F6B38 /* Chapter3 */,
+				FF759BDB1AD14A3D001F6B38 /* Chapter4 */,
+				FF759BDA1AD14A30001F6B38 /* Chapter5 */,
 			);
 			path = "einstieg_in_objective-c_und_cocoa";
 			sourceTree = "<group>";
@@ -135,6 +172,7 @@
 				FF759BC91ACF218C001F6B38 /* Chapter4.m in Sources */,
 				FF9623A21ACC3EC2003BF016 /* Chapter2.m in Sources */,
 				FF9623A51ACC492A003BF016 /* Chapter3.m in Sources */,
+				FF759BD91AD14A27001F6B38 /* Chapter5.m in Sources */,
 				FF96239A1ACC3E8A003BF016 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +257,7 @@
 		FF96239E1ACC3E8A003BF016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -226,6 +265,7 @@
 		FF96239F1ACC3E8A003BF016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

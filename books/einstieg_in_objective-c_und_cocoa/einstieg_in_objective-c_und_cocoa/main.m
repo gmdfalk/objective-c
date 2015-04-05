@@ -58,7 +58,26 @@ void chap4() {
     printSeparator(@"4.9: nsDictionary");
     [Chapter4 nsDictionary];
     printSeparator(@"4.10: Uebung");
-    [Chapter4 uebung];
+//    [Chapter4 uebung];
+    [Chapter4 uebungAlternate];
+}
+
+void chap5() {
+    printSeparator(@"5.4: nsString");
+    [Chapter4 nsString];
+    printSeparator(@"5.5: nsMutableString");
+    [Chapter4 nsMutableString];
+    printSeparator(@"5.6: verweisId");
+    [Chapter4 verweisId];
+    printSeparator(@"5.7: nsArray");
+    [Chapter4 nsArray];
+    printSeparator(@"5.8: nsMutableArray");
+    [Chapter4 nsMutableArray];
+    printSeparator(@"5.9: nsDictionary");
+    [Chapter4 nsDictionary];
+    printSeparator(@"5.10: Uebung");
+    //    [Chapter4 uebung];
+    [Chapter4 uebungAlternate];
 }
 
 int main(int argc, const char * argv[]) {
