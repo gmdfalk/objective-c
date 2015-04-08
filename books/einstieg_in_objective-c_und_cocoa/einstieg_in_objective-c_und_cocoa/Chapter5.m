@@ -20,16 +20,13 @@
     
 }
 +(void) readAndWriteXMLFiles {
-    NSString *arrayDatei = @"/Users/theis/Documents/meinArray.xml";
+    NSString *arrayDatei = @"/Users/Shared/meinArray.xml";
     NSArray *arrayA = [NSArray arrayWithObjects:@"Spanien", @"Frankreich", @"Italien", nil];
     [arrayA writeToFile:arrayDatei atomically:YES];
     NSArray *arrayB = [NSArray arrayWithContentsOfFile:arrayDatei];
     NSLog(@"%@", arrayB);
-    NSString *dictDatei = @"/Users/theis/Documents/meinDictionary.xml";
-    NSDictionary *dictA = [[NSDictionary alloc] initWithObjectsAndKeys:
-                           [NSNumber numberWithInt:47],@"Spanien",
-                           [NSNumber numberWithInt:65],@"Frankreich",
-                           [NSNumber numberWithInt:61],@"Italien", nil];
+    NSString *dictDatei = @"/Users/Shared/meinDictionary.xml";
+    NSDictionary *dictA = [[NSDictionary alloc] initWithObjectsAndKeys: [NSNumber numberWithInt:47],@"Spanien", [NSNumber numberWithInt:65],@"Frankreich", [NSNumber numberWithInt:61],@"Italien", nil];
     [dictA writeToFile:dictDatei atomically:YES];
     NSDictionary *dictB = [NSDictionary dictionaryWithContentsOfFile:dictDatei];
     NSLog(@"%@", dictB);
@@ -107,8 +104,8 @@
     NSLog(@"Zeitpunkt: %@", zeitpunktA);
     NSDateFormatter *datumsformat =
     [[NSDateFormatter alloc] init];
-    [datumsformat setDateFormat:@"dd.MM.yyyy HH:mm:ss"]; NSLog(@"Zeitpunkt formatiert: %@",
-                                                               [datumsformat stringFromDate:zeitpunktA]);
+    [datumsformat setDateFormat:@"dd.MM.yyyy HH:mm:ss"];
+    NSLog(@"Zeitpunkt formatiert: %@",[datumsformat stringFromDate:zeitpunktA]);
     NSTimeInterval zehnTage = 10 * 24 * 60 * 60; // 6
     NSDate *zeitpunktB = [zeitpunktA dateByAddingTimeInterval:zehnTage];
     NSLog(@"Zeitpunkt 10 Tage später: %@", zeitpunktB);

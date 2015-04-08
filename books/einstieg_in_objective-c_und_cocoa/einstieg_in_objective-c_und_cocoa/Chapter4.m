@@ -135,7 +135,6 @@ NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
     for (int i=0; i < count; i++) {
         rand1 = [NSNumber numberWithInt:arc4random() % 20 + 1];
         rand2 = [NSNumber numberWithInt:arc4random() % 20 + 1];
-        result = @([rand1 integerValue] + [rand2 integerValue]);
         NSLog(@"Bitte ausrechnen: %@ + %@ = ", rand1, rand2);
         scanf("%d", &input);
         

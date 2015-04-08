@@ -14,9 +14,8 @@
     float x = 7.0, y = 2.0, z;
     z = (x + 8 - y * 3) / 2;
     printf("Ergebnis: %f\n", z);
-    a++;
-    printf("Nach Inkrementierung: %d\n", a); a--;
-    printf("Nach Dekrementierung: %d\n", a);
+    printf("Nach Inkrementierung: %d\n", ++a);
+    printf("Nach Dekrementierung: %d\n", --a);
 }
 
 +(void)verzweigungen {
@@ -28,12 +27,13 @@
     else {
         printf("1: Erste Zahl ist nicht größer\n");
     }
-    if(a>b) // 2
+    if(a>b) {
         printf("2: Erste Zahl ist größer\n");
-    else if(a==b)
+    } else if(a==b) {
         printf("2: Beide Zahlen sind gleich\n");
-    else
+    }   else {
         printf("2: Zweite Zahl ist größer\n");
+    }
 }
 
 
