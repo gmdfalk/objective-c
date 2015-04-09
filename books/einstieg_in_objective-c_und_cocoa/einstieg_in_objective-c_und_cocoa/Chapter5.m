@@ -10,7 +10,7 @@
 +(void) readAndWriteTextFiles{
     
     NSString *speicherText = @"Ein Test mit äöü"; //1
-    NSString *nameMitPfad = @"/Users/theis/Documents/aus.txt";
+    NSString *nameMitPfad = @"/Users/Shared/aus.txt";
     //    NSString *nameMitPfad = @"aus.txt"; //3
     //    NSString *nameMitPfad = @"../aus.txt"; //4
     //    NSString *nameMitPfad = @"../sym/aus.txt"; //5
@@ -37,7 +37,6 @@
     NSLog(@"%d", boolWert);
     boolWert = NO;
     NSLog(@"%d", boolWert);
-    NSLog(@"Zahl ist größer als 10");
     int i = 42;
     boolWert = (i > 10);
     if(boolWert) {
@@ -58,24 +57,21 @@
 +(void) nsRange {
     NSRange rangeA = NSMakeRange(0,2);
     NSString *textA = @"Mein erster Text";
-    NSString *textB = [textA substringWithRange:rangeA]; NSLog(@"%@", textB);
+    NSString *textB = [textA substringWithRange:rangeA];
+    NSLog(@"%@", textB);
     NSArray *arrayA = [NSArray arrayWithObjects: @"Spanien",@"Frankreich",@"Italien",nil]; //3
-    NSArray *arrayB = [arrayA subarrayWithRange:rangeA]; NSLog(@"%@", arrayB);
-    NSRange rangeB = //4
-    NSMakeRange(5, [textA length] - 5);
-    NSString *textC =
-    [textA substringWithRange:rangeB];
+    NSArray *arrayB = [arrayA subarrayWithRange:rangeA];
+    NSLog(@"%@", arrayB);
+    NSRange rangeB = NSMakeRange(5, [textA length] - 5);
+    NSString *textC = [textA substringWithRange:rangeB];
     NSLog(@"%@", textC);
-    NSMutableString *textD = [NSMutableString //5
-                              stringWithString:@"Ein neuer Text"];
+    NSMutableString *textD = [NSMutableString stringWithString:@"Ein neuer Text"];
     NSLog(@"%@", textD);
-    NSRange rangeD = //6
-    [textD rangeOfString:@"neuer "];
+    NSRange rangeD = [textD rangeOfString:@"neuer "];
     if(rangeD.length > 0) {
         [textD deleteCharactersInRange:rangeD]; //8
         NSLog(@"%@", textD);
-        [textD insertString:@"geänderter " //9
-                    atIndex:rangeD.location];
+        [textD insertString:@"geänderter " atIndex:rangeD.location];
         NSLog(@"%@", textD);
     }
     
@@ -96,14 +92,16 @@
 +(void) dateAndTime {
     NSDate *startzeit = [NSDate date];
     int a = 1;
-    for(int i=1; i<=2e8; i++)
+    for(int i=1; i<=2e8; i++){
         a = -a;
+        
+    }
+    NSLog(@"%f", 2e8);
     NSTimeInterval dauer = -[startzeit timeIntervalSinceNow];
     NSLog(@"Dauer: %f Sekunden", dauer);
     NSDate *zeitpunktA = [NSDate dateWithString: @"2013-01-28 15:30:00 +0100"];
     NSLog(@"Zeitpunkt: %@", zeitpunktA);
-    NSDateFormatter *datumsformat =
-    [[NSDateFormatter alloc] init];
+    NSDateFormatter *datumsformat = [[NSDateFormatter alloc] init];
     [datumsformat setDateFormat:@"dd.MM.yyyy HH:mm:ss"];
     NSLog(@"Zeitpunkt formatiert: %@",[datumsformat stringFromDate:zeitpunktA]);
     NSTimeInterval zehnTage = 10 * 24 * 60 * 60; // 6
