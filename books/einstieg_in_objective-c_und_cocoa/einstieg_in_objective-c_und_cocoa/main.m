@@ -81,6 +81,7 @@ void chap5() {
     printSeparator(@"5.8: Blocks");
     [Chapter5 blocks];
     printSeparator(@"5.9: Exercise");
+    [Chapter5 countdown];
     [Chapter5 exercise];
 }
 

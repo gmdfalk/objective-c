@@ -19,6 +19,7 @@
     NSLog(@"%@", ladeText);
     
 }
+
 +(void) readAndWriteXMLFiles {
     NSString *arrayDatei = @"/Users/Shared/meinArray.xml";
     NSArray *arrayA = [NSArray arrayWithObjects:@"Spanien", @"Frankreich", @"Italien", nil];
@@ -31,6 +32,7 @@
     NSDictionary *dictB = [NSDictionary dictionaryWithContentsOfFile:dictDatei];
     NSLog(@"%@", dictB);
 }
+
 +(void) booleanVariables {
     BOOL boolWert;
     boolWert = YES;
@@ -43,6 +45,7 @@
         NSLog(@"Zahl ist größer als 10");
     }
 }
+
 +(void) moreNumberTypes {
     NSInteger intZahl = -42;
     NSLog(@"%ld", intZahl);
@@ -54,6 +57,7 @@
     NSLog(@"%f", floatZahl);
     NSLog(@"Von %e bis %e", CGFLOAT_MIN, CGFLOAT_MAX);
 }
+
 +(void) nsRange {
     NSRange rangeA = NSMakeRange(0,2);
     NSString *textA = @"Mein erster Text";
@@ -76,6 +80,7 @@
     }
     
 }
+
 +(void) geometricStructures {
     NSPoint punktA = NSMakePoint(10,80);
     NSLog(@"Punkt, Lage: x %.1f, y %.1f",
@@ -89,6 +94,7 @@
     NSLog(@"Rechteck, Größe: Breite %.1f, Höhe %.1f", rechteckA.size.width, rechteckA.size.height);
     
 }
+
 +(void) dateAndTime {
     NSDate *startzeit = [NSDate date];
     int a = 1;
@@ -108,6 +114,7 @@
     NSDate *zeitpunktB = [zeitpunktA dateByAddingTimeInterval:zehnTage];
     NSLog(@"Zeitpunkt 10 Tage später: %@", zeitpunktB);
 }
+
 +(void) blocks {
     void(^hallo)(void) = ^ {
         NSLog(@"hallo");
@@ -127,8 +134,74 @@
     zahl = 5; //8
     NSLog(@"%d", summe(6,3));
 }
+
++(void) countdown {
+    for (int i=0; i < 100; i++){
+        NSLog(@"%d",100-i);
+    }
+}
+
 +(void) exercise {
+    NSDate *startTime = [NSDate date];
+    NSMutableDictionary *dict = [Chapter5 readInput:5];
+    NSNumber *timeDifference = [NSNumber numberWithDouble:[startTime timeIntervalSinceNow]];
+    [dict setValue:timeDifference forKey:@"Zeit"];
+    NSString *path = @"/Users/Shared/chap5Exercise.xml";
+    [Chapter5 writeXMLFile:dict withPath:path];
+    NSDictionary *dictFromFile = [Chapter5 readXMLFile:path];
+    [Chapter5 printResults:dictFromFile];
+}
+
+
++(NSDictionary *) readXMLFile:(NSString *) path {
+    return [NSDictionary dictionaryWithContentsOfFile:path];
+}
+
++(void) writeXMLFile:(NSDictionary *) dictionary withPath:(NSString *) path {
+    [dictionary writeToFile:path atomically:YES];
     
 }
 
+
++(NSMutableDictionary *) readInput:(NSInteger) count {
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    NSNumber *rand1, *rand2, *result;
+    NSMutableArray *input = [NSMutableArray array], *nums1 = [NSMutableArray array], *nums2 = [NSMutableArray array];
+    int inp;
+    for (int i=0; i < count; i++) {
+        rand1 = [self createRandomNumber];
+        rand2 = [self createRandomNumber];
+        result = @([rand1 integerValue] + [rand2 integerValue]);
+        NSLog(@"Bitte ausrechnen: %@ + %@ = ", rand1, rand2);
+        scanf("%d", &inp);
+        [input addObject:@(inp)];
+        [nums1 addObject:rand1];
+        [nums2 addObject:rand2];
+    }
+    [dict setValue:input forKey:@"Eingaben"];
+    [dict setValue:nums1 forKey:@"Zahl 1"];
+    [dict setValue:nums2 forKey:@"Zahl 2"];
+    return dict;
+}
+
++(NSNumber *) createRandomNumber {
+    return [NSNumber numberWithInt:(arc4random() % 20 + 1)];
+}
+
+
++(void) printResults:(NSDictionary *) dict {
+    NSArray *input, *nums1, *nums2;
+    NSInteger len, num1, num2;
+    input = dict[@"Eingaben"];
+    nums1 = dict[@"Zahl 1"];
+    nums2 = dict[@"Zahl 2"];
+    len = [input count];
+    for (int i=0; i < len; i++) {
+        num1 = [nums1[i] intValue];
+        num2 = [nums2[i] intValue];
+        NSLog(@"%ld + %ld = %ld. Ihre Eingabe ist %@", num1, num2, num1+num2, num1+num2 == [input[i] intValue] ? @"richtig" : @"falsch");
+    }
+}
+
 @end
+

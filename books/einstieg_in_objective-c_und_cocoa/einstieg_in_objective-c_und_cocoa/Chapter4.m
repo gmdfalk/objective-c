@@ -12,26 +12,25 @@
     NSLog(@"%@", textA);
     NSString *textB = [[NSString alloc] initWithUTF8String:"Frankreich"]; // 2
     NSLog(@"%@", textB);
-    NSString *textC = [NSString
-                       stringWithUTF8String:"Italien"];
+    NSString *textC = [NSString stringWithUTF8String:"Italien"];
     NSLog(@"%@", textC);
     int i = 5;
     float f = 7.8;
-    NSString *textD = [[NSString alloc] initWithFormat:
-                       @"Text und Zahlen: %d und %.2f", i, f];
+    NSString *textD = [[NSString alloc] initWithFormat: @"Text und Zahlen: %d und %.2f", i, f];
     NSLog(@"%@", textD);
     NSString *textE = [NSString stringWithFormat: @"Text und Zahlen: %d und %.2f", i, f];
     NSLog(@"%@", textE);
-    textE = [NSString stringWithFormat:
-             @"%@ und %@", textE, @"noch mehr"];
+    textE = [NSString stringWithFormat: @"%@ und %@", textE, @"noch mehr"];
     NSLog(@"%@", textE);
     if([textA isEqualToString:@"Spanien"])
         NSLog(@"Objekt beinhaltet Text: Spanien");
-    NSComparisonResult ergebnis = [textA compare:textB]; if(ergebnis == NSOrderedAscending)
-        NSLog(@"Texte stehen aufsteigend"); else if(ergebnis == NSOrderedDescending)
-            NSLog(@"Texte stehen absteigend");
-        else if(ergebnis == NSOrderedSame)
-            NSLog(@"Texte sind gleich");
+    NSComparisonResult ergebnis = [textA compare:textB];
+    if(ergebnis == NSOrderedAscending)
+        NSLog(@"Texte stehen aufsteigend");
+    else if(ergebnis == NSOrderedDescending)
+        NSLog(@"Texte stehen absteigend");
+    else if(ergebnis == NSOrderedSame)
+        NSLog(@"Texte sind gleich");
     
 }
 
@@ -47,8 +46,7 @@
     NSLog(@"%@", textA);
     [textA insertString:@", Italien" atIndex:7]; //5
     NSLog(@"%@", textA);
-    NSMutableString *textB = [NSMutableString
-                              stringWithString:@"Frankreich"];
+    NSMutableString *textB = [NSMutableString stringWithString:@"Frankreich"];
     NSLog(@"%@", textB);
     
 }
@@ -57,13 +55,14 @@
     id verweisA;
     verweisA = [NSNumber numberWithInt:5];
     NSLog(@"%@", verweisA);
-    verweisA = [NSString stringWithUTF8String:"Hallo"]; NSLog(@"%@", verweisA);
+    verweisA = [NSString stringWithUTF8String:"Hallo"];
+    NSLog(@"%@", verweisA);
     
 }
 
 +(void) nsArray {
-    NSArray *arrayA = [[NSArray alloc]
-                       initWithObjects:@"Spanien",@"Frankreich", [NSNumber numberWithInt:42],nil];
+    NSArray *arrayA = [[NSArray alloc] initWithObjects:@"Spanien",@"Frankreich",
+                       [NSNumber numberWithInt:42],nil];
     NSLog(@"%@", arrayA);
     for(int i=0; i<[arrayA count]; i++)
         NSLog(@"%d: %@ ", i, [arrayA objectAtIndex:i]);
@@ -75,7 +74,8 @@
 }
 
 +(void) nsMutableArray {
-    NSMutableArray *arrayA = [NSMutableArray arrayWithObjects:@"Spanien", @"Frankreich", @"Italien", nil];
+    NSMutableArray *arrayA = [NSMutableArray arrayWithObjects:@"Spanien",
+                              @"Frankreich", @"Italien", nil];
     NSLog(@"2 %@", arrayA);
     [arrayA removeLastObject];
     NSLog(@"3 %@", arrayA);
@@ -90,7 +90,7 @@
     [arrayA exchangeObjectAtIndex:0 withObjectAtIndex:2];
     NSLog(@"8 %@", arrayA);
     [arrayA sortUsingFunction:vergleich context:NULL];
-//    [arrayA sortUsingSelector:@selector(compare:)];
+    //    [arrayA sortUsingSelector:@selector(compare:)];
     NSLog(@"9 %@", arrayA);
     NSArray *names = @[@"Brian", @"Matt", @"Chris", @"Alex", @"Steve", @"Paul"];
     
@@ -103,7 +103,9 @@ NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
 
 +(void) nsDictionary {
     NSDictionary *einwohnerDict = //1
-    [[NSDictionary alloc] initWithObjectsAndKeys: [NSNumber numberWithInt:47],@"Spanien", [NSNumber numberWithInt:65],@"Frankreich", [NSNumber numberWithInt:61],@"Italien", nil];
+    [[NSDictionary alloc] initWithObjectsAndKeys: [NSNumber numberWithInt:47], @"Spanien",
+     [NSNumber numberWithInt:65],@"Frankreich",
+     [NSNumber numberWithInt:61],@"Italien", nil];
     NSLog(@"%@", einwohnerDict);
     NSLog(@"Frankreich hat %@ Mio. Einwohner", //2
           [einwohnerDict objectForKey:@"Frankreich"]);
@@ -112,17 +114,17 @@ NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
               [einwohnerDict objectForKey:schluessel]);
     NSMutableDictionary *flaecheDict = //4
     [NSMutableDictionary dictionaryWithObjectsAndKeys:
-     [NSNumber numberWithInt:503],@"Spanien", [NSNumber numberWithInt:675],@"Irland", nil];
-    [flaecheDict setObject:
-     [NSNumber numberWithInt:301] forKey:@"Italien"];
-    [flaecheDict setObject:
-     [NSNumber numberWithInt:505] forKey:@"Spanien"];
+     [NSNumber numberWithInt:503],@"Spanien",
+     [NSNumber numberWithInt:675],@"Irland", nil];
+    [flaecheDict setObject: [NSNumber numberWithInt:301] forKey:@"Italien"];
+    [flaecheDict setObject: [NSNumber numberWithInt:505] forKey:@"Spanien"];
     NSLog(@"%@", flaecheDict);
     
     for(id key in flaecheDict) {
         NSLog(@"%@:%@", key, flaecheDict[key]);
     }
-    NSDictionary *productManagers = @{@"iPhone" : @"Kate", @"iPad" : @"Kamal", @"Mobile Web" : @"Bill"};
+    NSDictionary *productManagers = @{@"iPhone" : @"Kate", @"iPad" : @"Kamal",
+                                      @"Mobile Web" : @"Bill"};
 }
 
 +(void) uebung {
@@ -150,7 +152,8 @@ NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
             [resultString setString:@"richtig"];
             solvedCount++;
         }
-        NSLog(@"%@ + %@ = %@, Ihre Eingabe ist %@.\n", rand1Results[i], rand2Results[i], result, resultString);
+        NSLog(@"%@ + %@ = %@, Ihre Eingabe ist %@.\n", rand1Results[i],
+              rand2Results[i], result, resultString);
     }
     NSLog(@"Sie haben %d von %d Aufgaben richtig geloest.\n", solvedCount, count);
 }
@@ -172,7 +175,7 @@ NSInteger vergleich(id verweis1, id verweis2, void *kontext) {
         } else {
             resultString = @"falsch.";
         }
-        [dict setObject:[NSString stringWithFormat:@"%@ + %@ = %@, Ihre Eingabe ist %@", rand1, rand2, result, resultString] forKey:[NSNumber numberWithInt:i]];
+        [dict setObject:[NSString stringWithFormat: @"%@ + %@ = %@, Ihre Eingabe ist %@", rand1, rand2, result, resultString] forKey:[NSNumber numberWithInt:i]];
     }
     NSLog(@"length: %ld", dict.count);
     for (id key in dict) {

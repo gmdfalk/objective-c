@@ -15,6 +15,11 @@
 +(void) geometricStructures;
 +(void) dateAndTime;
 +(void) blocks;
++(void) countdown;
 +(void) exercise;
-
++(NSDictionary *) readXMLFile:(NSString *) path;
++(void) writeXMLFile:(NSMutableDictionary *) dictionary withPath:(NSString *) path;
++(NSMutableDictionary *) readInput:(NSInteger) count;
++(NSNumber *) createRandomNumber;
++(void) printResults:(NSDictionary *) dict;
 @end
