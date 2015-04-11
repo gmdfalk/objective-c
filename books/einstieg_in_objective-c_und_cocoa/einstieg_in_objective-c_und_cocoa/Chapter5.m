@@ -162,7 +162,6 @@
     
 }
 
-
 +(NSMutableDictionary *) readInput:(NSInteger) count {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     NSNumber *rand1, *rand2, *result;

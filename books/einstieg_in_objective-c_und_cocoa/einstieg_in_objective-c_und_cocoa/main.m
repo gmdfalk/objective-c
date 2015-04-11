@@ -8,6 +8,7 @@
 #import "Chapter3.h"
 #import "Chapter4.h"
 #import "Chapter5.h"
+#import "Chapter6.h"
 
 void printSeparator(NSString* name) {
     NSLog(@"\n\n--------------%@---------------\n", name);
@@ -90,7 +91,8 @@ int main(int argc, const char * argv[]) {
 //        chap2();
 //        chap3();
 //        chap4();
-        chap5();
+//        chap5();
+        [Chapter6 exercise];
     }
     return 0;
 }
