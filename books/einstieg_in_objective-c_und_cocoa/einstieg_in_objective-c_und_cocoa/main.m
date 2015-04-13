@@ -92,7 +92,13 @@ int main(int argc, const char * argv[]) {
 //        chap3();
 //        chap4();
 //        chap5();
-        [Chapter6 exercise];
+//        [Chapter6 exercise];
     }
+//    Chapter6 *chap;
+//    for (int i=0; i<1000000;i++) {
+//        chap = [[Chapter6 alloc] init];
+//        [chap retain];
+//    }
+//    NSLog(@"Retain count: %ld", [chap retainCount]);
     return 0;
 }

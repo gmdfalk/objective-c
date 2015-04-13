@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF3316C41AD9D49200F20C38 /* Chapter7.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3316C31AD9D49200F20C38 /* Chapter7.m */; };
 		FF51EA8C1AD9C34800F80DF8 /* Chapter6.m in Sources */ = {isa = PBXBuildFile; fileRef = FF51EA8B1AD9C34800F80DF8 /* Chapter6.m */; };
 		FF51EA901AD9C4BA00F80DF8 /* Kopfrechentest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF51EA8F1AD9C4BA00F80DF8 /* Kopfrechentest.m */; };
 		FF759BC91ACF218C001F6B38 /* Chapter4.m in Sources */ = {isa = PBXBuildFile; fileRef = FF759BC81ACF218C001F6B38 /* Chapter4.m */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF3316C21AD9D49200F20C38 /* Chapter7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter7.h; sourceTree = "<group>"; };
+		FF3316C31AD9D49200F20C38 /* Chapter7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter7.m; sourceTree = "<group>"; };
 		FF51EA8A1AD9C34800F80DF8 /* Chapter6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter6.h; sourceTree = "<group>"; };
 		FF51EA8B1AD9C34800F80DF8 /* Chapter6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chapter6.m; sourceTree = "<group>"; };
 		FF51EA8E1AD9C4BA00F80DF8 /* Kopfrechentest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kopfrechentest.h; sourceTree = "<group>"; };
@@ -56,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF3316C11AD9D48100F20C38 /* Chapter7 */ = {
+			isa = PBXGroup;
+			children = (
+				FF3316C21AD9D49200F20C38 /* Chapter7.h */,
+				FF3316C31AD9D49200F20C38 /* Chapter7.m */,
+			);
+			name = Chapter7;
+			sourceTree = "<group>";
+		};
 		FF51EA8D1AD9C35200F80DF8 /* Chapter6 */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 				FF759BDB1AD14A3D001F6B38 /* Chapter4 */,
 				FF759BDA1AD14A30001F6B38 /* Chapter5 */,
 				FF51EA8D1AD9C35200F80DF8 /* Chapter6 */,
+				FF3316C11AD9D48100F20C38 /* Chapter7 */,
 			);
 			path = "einstieg_in_objective-c_und_cocoa";
 			sourceTree = "<group>";
@@ -190,6 +203,7 @@
 				FF759BC91ACF218C001F6B38 /* Chapter4.m in Sources */,
 				FF9623A21ACC3EC2003BF016 /* Chapter2.m in Sources */,
 				FF51EA901AD9C4BA00F80DF8 /* Kopfrechentest.m in Sources */,
+				FF3316C41AD9D49200F20C38 /* Chapter7.m in Sources */,
 				FF9623A51ACC492A003BF016 /* Chapter3.m in Sources */,
 				FF759BD91AD14A27001F6B38 /* Chapter5.m in Sources */,
 				FF51EA8C1AD9C34800F80DF8 /* Chapter6.m in Sources */,

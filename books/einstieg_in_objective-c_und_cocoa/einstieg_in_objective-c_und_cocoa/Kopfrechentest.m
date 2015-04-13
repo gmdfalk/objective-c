@@ -53,7 +53,7 @@
         NSLog(@"%ld + %ld = %ld. Ihre Eingabe %@ ist %@", num1, num2, num1+num2,
               input[i], resultString);
     }
-    NSLog(@"Sie haben %ld von %ld Aufgaben richtig beantwortet und %.2f Sekunden gebraucht.", solvedCount, len, [ergebnisse[@"Zeit"] doubleValue]);
+    NSLog(@"Sie haben %ld von %ld Aufgaben richtig beantwortet und %.2f Sekunden gebraucht.", solvedCount, len, -[ergebnisse[@"Zeit"] doubleValue]);
 }
 
 -(void) speichern:(NSMutableDictionary *) ergebnisse mitDateiname:(NSString *) dateiname{

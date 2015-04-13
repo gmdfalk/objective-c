@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3316D51ADC131800F20C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3316D41ADC131800F20C38 /* AppDelegate.m */; };
+		FF3316D71ADC131800F20C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3316D61ADC131800F20C38 /* main.m */; };
+		FF3316D91ADC131800F20C38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3316D81ADC131800F20C38 /* Images.xcassets */; };
+		FF3316DC1ADC131800F20C38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3316DA1ADC131800F20C38 /* MainMenu.xib */; };
+		FF3316E81ADC131800F20C38 /* GTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3316E71ADC131800F20C38 /* GTextTests.m */; };
+		FF3316F31ADC15F900F20C38 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3316F21ADC15F900F20C38 /* Controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3316E21ADC131800F20C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3316C61ADC131800F20C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3316CD1ADC131800F20C38;
+			remoteInfo = GText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3316CE1ADC131800F20C38 /* GText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3316D21ADC131800F20C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3316D31ADC131800F20C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3316D41ADC131800F20C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF3316D61ADC131800F20C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF3316D81ADC131800F20C38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF3316DB1ADC131800F20C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF3316E11ADC131800F20C38 /* GTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3316E61ADC131800F20C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3316E71ADC131800F20C38 /* GTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTextTests.m; sourceTree = "<group>"; };
+		FF3316F11ADC15F900F20C38 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		FF3316F21ADC15F900F20C38 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3316CB1ADC131800F20C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3316DE1ADC131800F20C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3316C51ADC131800F20C38 = {
+			isa = PBXGroup;
+			children = (
+				FF3316D01ADC131800F20C38 /* GText */,
+				FF3316E41ADC131800F20C38 /* GTextTests */,
+				FF3316CF1ADC131800F20C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3316CF1ADC131800F20C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3316CE1ADC131800F20C38 /* GText.app */,
+				FF3316E11ADC131800F20C38 /* GTextTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3316D01ADC131800F20C38 /* GText */ = {
+			isa = PBXGroup;
+			children = (
+				FF3316D81ADC131800F20C38 /* Images.xcassets */,
+				FF3316DA1ADC131800F20C38 /* MainMenu.xib */,
+				FF3316D31ADC131800F20C38 /* AppDelegate.h */,
+				FF3316D41ADC131800F20C38 /* AppDelegate.m */,
+				FF3316F11ADC15F900F20C38 /* Controller.h */,
+				FF3316F21ADC15F900F20C38 /* Controller.m */,
+				FF3316D11ADC131800F20C38 /* Supporting Files */,
+			);
+			path = GText;
+			sourceTree = "<group>";
+		};
+		FF3316D11ADC131800F20C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3316D21ADC131800F20C38 /* Info.plist */,
+				FF3316D61ADC131800F20C38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3316E41ADC131800F20C38 /* GTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3316E71ADC131800F20C38 /* GTextTests.m */,
+				FF3316E51ADC131800F20C38 /* Supporting Files */,
+			);
+			path = GTextTests;
+			sourceTree = "<group>";
+		};
+		FF3316E51ADC131800F20C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3316E61ADC131800F20C38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3316CD1ADC131800F20C38 /* GText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3316EB1ADC131800F20C38 /* Build configuration list for PBXNativeTarget "GText" */;
+			buildPhases = (
+				FF3316CA1ADC131800F20C38 /* Sources */,
+				FF3316CB1ADC131800F20C38 /* Frameworks */,
+				FF3316CC1ADC131800F20C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GText;
+			productName = GText;
+			productReference = FF3316CE1ADC131800F20C38 /* GText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3316E01ADC131800F20C38 /* GTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3316EE1ADC131800F20C38 /* Build configuration list for PBXNativeTarget "GTextTests" */;
+			buildPhases = (
+				FF3316DD1ADC131800F20C38 /* Sources */,
+				FF3316DE1ADC131800F20C38 /* Frameworks */,
+				FF3316DF1ADC131800F20C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3316E31ADC131800F20C38 /* PBXTargetDependency */,
+			);
+			name = GTextTests;
+			productName = GTextTests;
+			productReference = FF3316E11ADC131800F20C38 /* GTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3316C61ADC131800F20C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					FF3316CD1ADC131800F20C38 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF3316E01ADC131800F20C38 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FF3316CD1ADC131800F20C38;
+					};
+				};
+			};
+			buildConfigurationList = FF3316C91ADC131800F20C38 /* Build configuration list for PBXProject "GText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3316C51ADC131800F20C38;
+			productRefGroup = FF3316CF1ADC131800F20C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3316CD1ADC131800F20C38 /* GText */,
+				FF3316E01ADC131800F20C38 /* GTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3316CC1ADC131800F20C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3316D91ADC131800F20C38 /* Images.xcassets in Resources */,
+				FF3316DC1ADC131800F20C38 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3316DF1ADC131800F20C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3316CA1ADC131800F20C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3316D71ADC131800F20C38 /* main.m in Sources */,
+				FF3316D51ADC131800F20C38 /* AppDelegate.m in Sources */,
+				FF3316F31ADC15F900F20C38 /* Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3316DD1ADC131800F20C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3316E81ADC131800F20C38 /* GTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3316E31ADC131800F20C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3316CD1ADC131800F20C38 /* GText */;
+			targetProxy = FF3316E21ADC131800F20C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3316DA1ADC131800F20C38 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3316DB1ADC131800F20C38 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3316E91ADC131800F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF3316EA1ADC131800F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF3316EC1ADC131800F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF3316ED1ADC131800F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF3316EF1ADC131800F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GText.app/Contents/MacOS/GText";
+			};
+			name = Debug;
+		};
+		FF3316F01ADC131800F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GText.app/Contents/MacOS/GText";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3316C91ADC131800F20C38 /* Build configuration list for PBXProject "GText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3316E91ADC131800F20C38 /* Debug */,
+				FF3316EA1ADC131800F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3316EB1ADC131800F20C38 /* Build configuration list for PBXNativeTarget "GText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3316EC1ADC131800F20C38 /* Debug */,
+				FF3316ED1ADC131800F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3316EE1ADC131800F20C38 /* Build configuration list for PBXNativeTarget "GTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3316EF1ADC131800F20C38 /* Debug */,
+				FF3316F01ADC131800F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3316C61ADC131800F20C38 /* Project object */;
+}
