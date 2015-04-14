@@ -12,7 +12,7 @@
 @interface Controller : NSObject
 
 @property IBOutlet NSTextField *textInput;
-@property IBOutlet NSTextField *textResult;
+@property IBOutlet NSTextField *textOutput;
 
 -(IBAction)celsiusToFahrenheit:(id)sender;
 -(IBAction)fahrenheitToCelsius:(id)sender;

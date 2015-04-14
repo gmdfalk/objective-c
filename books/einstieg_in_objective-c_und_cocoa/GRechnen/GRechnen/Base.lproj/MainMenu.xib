@@ -18,6 +18,12 @@
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="6LU-Nr-3oN" customClass="Controller">
+            <connections>
+                <outlet property="textInput" destination="3Qu-dL-idz" id="C2O-q7-ymc"/>
+                <outlet property="textOutput" destination="GxG-Lj-y6c" id="j6X-SW-W3w"/>
+            </connections>
+        </customObject>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
                 <menuItem title="GRechnen" id="1Xt-HY-uBw">
@@ -690,6 +696,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="celsiusToFahrenheit:" target="6LU-Nr-3oN" id="SL6-Re-tax"/>
+                        </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sxB-CT-Ua4">
                         <rect key="frame" x="14" y="44" width="198" height="32"/>
@@ -697,6 +706,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="fahrenheitToCelsius:" target="6LU-Nr-3oN" id="4lK-ZW-5zA"/>
+                        </connections>
                     </button>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Qu-dL-idz">
                         <rect key="frame" x="20" y="113" width="186" height="22"/>

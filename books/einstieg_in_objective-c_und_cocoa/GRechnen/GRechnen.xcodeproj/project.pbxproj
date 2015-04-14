@@ -13,7 +13,6 @@
 		FF33170B1ADC223C00F20C38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3317091ADC223C00F20C38 /* MainMenu.xib */; };
 		FF3317171ADC223C00F20C38 /* GRechnenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317161ADC223C00F20C38 /* GRechnenTests.m */; };
 		FF3317221ADC237600F20C38 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317211ADC237600F20C38 /* Controller.m */; };
-		FF3317271ADC261C00F20C38 /* Temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317261ADC261C00F20C38 /* Temperature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +38,6 @@
 		FF3317161ADC223C00F20C38 /* GRechnenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRechnenTests.m; sourceTree = "<group>"; };
 		FF3317201ADC237600F20C38 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
 		FF3317211ADC237600F20C38 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
-		FF3317251ADC261C00F20C38 /* Temperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temperature.h; sourceTree = "<group>"; };
-		FF3317261ADC261C00F20C38 /* Temperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temperature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +82,6 @@
 				FF3317021ADC223C00F20C38 /* AppDelegate.h */,
 				FF3317031ADC223C00F20C38 /* AppDelegate.m */,
 				FF3317071ADC223C00F20C38 /* Images.xcassets */,
-				FF3317241ADC260B00F20C38 /* Model */,
 				FF3317231ADC260400F20C38 /* Controller */,
 				FF3317091ADC223C00F20C38 /* MainMenu.xib */,
 				FF3317001ADC223C00F20C38 /* Supporting Files */,
@@ -126,15 +122,6 @@
 				FF3317211ADC237600F20C38 /* Controller.m */,
 			);
 			name = Controller;
-			sourceTree = "<group>";
-		};
-		FF3317241ADC260B00F20C38 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				FF3317251ADC261C00F20C38 /* Temperature.h */,
-				FF3317261ADC261C00F20C38 /* Temperature.m */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +224,6 @@
 			files = (
 				FF3317061ADC223C00F20C38 /* main.m in Sources */,
 				FF3317041ADC223C00F20C38 /* AppDelegate.m in Sources */,
-				FF3317271ADC261C00F20C38 /* Temperature.m in Sources */,
 				FF3317221ADC237600F20C38 /* Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
