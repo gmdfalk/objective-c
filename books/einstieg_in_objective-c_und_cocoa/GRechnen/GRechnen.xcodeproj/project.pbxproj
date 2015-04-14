@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3317041ADC223C00F20C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317031ADC223C00F20C38 /* AppDelegate.m */; };
+		FF3317061ADC223C00F20C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317051ADC223C00F20C38 /* main.m */; };
+		FF3317081ADC223C00F20C38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3317071ADC223C00F20C38 /* Images.xcassets */; };
+		FF33170B1ADC223C00F20C38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3317091ADC223C00F20C38 /* MainMenu.xib */; };
+		FF3317171ADC223C00F20C38 /* GRechnenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317161ADC223C00F20C38 /* GRechnenTests.m */; };
+		FF3317221ADC237600F20C38 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317211ADC237600F20C38 /* Controller.m */; };
+		FF3317271ADC261C00F20C38 /* Temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317261ADC261C00F20C38 /* Temperature.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3317111ADC223C00F20C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3316F51ADC223C00F20C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3316FC1ADC223C00F20C38;
+			remoteInfo = GRechnen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3316FD1ADC223C00F20C38 /* GRechnen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRechnen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3317011ADC223C00F20C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3317021ADC223C00F20C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3317031ADC223C00F20C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF3317051ADC223C00F20C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF3317071ADC223C00F20C38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF33170A1ADC223C00F20C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF3317101ADC223C00F20C38 /* GRechnenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRechnenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3317151ADC223C00F20C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3317161ADC223C00F20C38 /* GRechnenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRechnenTests.m; sourceTree = "<group>"; };
+		FF3317201ADC237600F20C38 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		FF3317211ADC237600F20C38 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		FF3317251ADC261C00F20C38 /* Temperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temperature.h; sourceTree = "<group>"; };
+		FF3317261ADC261C00F20C38 /* Temperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temperature.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3316FA1ADC223C00F20C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF33170D1ADC223C00F20C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3316F41ADC223C00F20C38 = {
+			isa = PBXGroup;
+			children = (
+				FF3316FF1ADC223C00F20C38 /* GRechnen */,
+				FF3317131ADC223C00F20C38 /* GRechnenTests */,
+				FF3316FE1ADC223C00F20C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3316FE1ADC223C00F20C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3316FD1ADC223C00F20C38 /* GRechnen.app */,
+				FF3317101ADC223C00F20C38 /* GRechnenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3316FF1ADC223C00F20C38 /* GRechnen */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317021ADC223C00F20C38 /* AppDelegate.h */,
+				FF3317031ADC223C00F20C38 /* AppDelegate.m */,
+				FF3317071ADC223C00F20C38 /* Images.xcassets */,
+				FF3317241ADC260B00F20C38 /* Model */,
+				FF3317231ADC260400F20C38 /* Controller */,
+				FF3317091ADC223C00F20C38 /* MainMenu.xib */,
+				FF3317001ADC223C00F20C38 /* Supporting Files */,
+			);
+			path = GRechnen;
+			sourceTree = "<group>";
+		};
+		FF3317001ADC223C00F20C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317011ADC223C00F20C38 /* Info.plist */,
+				FF3317051ADC223C00F20C38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3317131ADC223C00F20C38 /* GRechnenTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317161ADC223C00F20C38 /* GRechnenTests.m */,
+				FF3317141ADC223C00F20C38 /* Supporting Files */,
+			);
+			path = GRechnenTests;
+			sourceTree = "<group>";
+		};
+		FF3317141ADC223C00F20C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317151ADC223C00F20C38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3317231ADC260400F20C38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317201ADC237600F20C38 /* Controller.h */,
+				FF3317211ADC237600F20C38 /* Controller.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FF3317241ADC260B00F20C38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317251ADC261C00F20C38 /* Temperature.h */,
+				FF3317261ADC261C00F20C38 /* Temperature.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3316FC1ADC223C00F20C38 /* GRechnen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF33171A1ADC223C00F20C38 /* Build configuration list for PBXNativeTarget "GRechnen" */;
+			buildPhases = (
+				FF3316F91ADC223C00F20C38 /* Sources */,
+				FF3316FA1ADC223C00F20C38 /* Frameworks */,
+				FF3316FB1ADC223C00F20C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRechnen;
+			productName = GRechnen;
+			productReference = FF3316FD1ADC223C00F20C38 /* GRechnen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF33170F1ADC223C00F20C38 /* GRechnenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF33171D1ADC223C00F20C38 /* Build configuration list for PBXNativeTarget "GRechnenTests" */;
+			buildPhases = (
+				FF33170C1ADC223C00F20C38 /* Sources */,
+				FF33170D1ADC223C00F20C38 /* Frameworks */,
+				FF33170E1ADC223C00F20C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3317121ADC223C00F20C38 /* PBXTargetDependency */,
+			);
+			name = GRechnenTests;
+			productName = GRechnenTests;
+			productReference = FF3317101ADC223C00F20C38 /* GRechnenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3316F51ADC223C00F20C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					FF3316FC1ADC223C00F20C38 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF33170F1ADC223C00F20C38 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FF3316FC1ADC223C00F20C38;
+					};
+				};
+			};
+			buildConfigurationList = FF3316F81ADC223C00F20C38 /* Build configuration list for PBXProject "GRechnen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3316F41ADC223C00F20C38;
+			productRefGroup = FF3316FE1ADC223C00F20C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3316FC1ADC223C00F20C38 /* GRechnen */,
+				FF33170F1ADC223C00F20C38 /* GRechnenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3316FB1ADC223C00F20C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3317081ADC223C00F20C38 /* Images.xcassets in Resources */,
+				FF33170B1ADC223C00F20C38 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF33170E1ADC223C00F20C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3316F91ADC223C00F20C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3317061ADC223C00F20C38 /* main.m in Sources */,
+				FF3317041ADC223C00F20C38 /* AppDelegate.m in Sources */,
+				FF3317271ADC261C00F20C38 /* Temperature.m in Sources */,
+				FF3317221ADC237600F20C38 /* Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF33170C1ADC223C00F20C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3317171ADC223C00F20C38 /* GRechnenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3317121ADC223C00F20C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3316FC1ADC223C00F20C38 /* GRechnen */;
+			targetProxy = FF3317111ADC223C00F20C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3317091ADC223C00F20C38 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF33170A1ADC223C00F20C38 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3317181ADC223C00F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF3317191ADC223C00F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF33171B1ADC223C00F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GRechnen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF33171C1ADC223C00F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GRechnen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF33171E1ADC223C00F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GRechnenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRechnen.app/Contents/MacOS/GRechnen";
+			};
+			name = Debug;
+		};
+		FF33171F1ADC223C00F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GRechnenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRechnen.app/Contents/MacOS/GRechnen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3316F81ADC223C00F20C38 /* Build configuration list for PBXProject "GRechnen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3317181ADC223C00F20C38 /* Debug */,
+				FF3317191ADC223C00F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF33171A1ADC223C00F20C38 /* Build configuration list for PBXNativeTarget "GRechnen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF33171B1ADC223C00F20C38 /* Debug */,
+				FF33171C1ADC223C00F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF33171D1ADC223C00F20C38 /* Build configuration list for PBXNativeTarget "GRechnenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF33171E1ADC223C00F20C38 /* Debug */,
+				FF33171F1ADC223C00F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3316F51ADC223C00F20C38 /* Project object */;
+}
