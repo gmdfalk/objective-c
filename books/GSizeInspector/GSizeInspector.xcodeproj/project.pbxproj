@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3317381ADDA44000F20C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317371ADDA44000F20C38 /* AppDelegate.m */; };
+		FF33173A1ADDA44000F20C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3317391ADDA44000F20C38 /* main.m */; };
+		FF33173C1ADDA44000F20C38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF33173B1ADDA44000F20C38 /* Images.xcassets */; };
+		FF33173F1ADDA44000F20C38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF33173D1ADDA44000F20C38 /* MainMenu.xib */; };
+		FF33174B1ADDA44000F20C38 /* GSizeInspectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33174A1ADDA44000F20C38 /* GSizeInspectorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3317451ADDA44000F20C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3317291ADDA44000F20C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3317301ADDA44000F20C38;
+			remoteInfo = GSizeInspector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3317311ADDA44000F20C38 /* GSizeInspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSizeInspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3317351ADDA44000F20C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3317361ADDA44000F20C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3317371ADDA44000F20C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF3317391ADDA44000F20C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF33173B1ADDA44000F20C38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF33173E1ADDA44000F20C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF3317441ADDA44000F20C38 /* GSizeInspectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSizeInspectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3317491ADDA44000F20C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF33174A1ADDA44000F20C38 /* GSizeInspectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSizeInspectorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF33172E1ADDA44000F20C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3317411ADDA44000F20C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3317281ADDA44000F20C38 = {
+			isa = PBXGroup;
+			children = (
+				FF3317331ADDA44000F20C38 /* GSizeInspector */,
+				FF3317471ADDA44000F20C38 /* GSizeInspectorTests */,
+				FF3317321ADDA44000F20C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3317321ADDA44000F20C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317311ADDA44000F20C38 /* GSizeInspector.app */,
+				FF3317441ADDA44000F20C38 /* GSizeInspectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3317331ADDA44000F20C38 /* GSizeInspector */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317361ADDA44000F20C38 /* AppDelegate.h */,
+				FF3317371ADDA44000F20C38 /* AppDelegate.m */,
+				FF33173B1ADDA44000F20C38 /* Images.xcassets */,
+				FF33173D1ADDA44000F20C38 /* MainMenu.xib */,
+				FF3317341ADDA44000F20C38 /* Supporting Files */,
+			);
+			path = GSizeInspector;
+			sourceTree = "<group>";
+		};
+		FF3317341ADDA44000F20C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317351ADDA44000F20C38 /* Info.plist */,
+				FF3317391ADDA44000F20C38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3317471ADDA44000F20C38 /* GSizeInspectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF33174A1ADDA44000F20C38 /* GSizeInspectorTests.m */,
+				FF3317481ADDA44000F20C38 /* Supporting Files */,
+			);
+			path = GSizeInspectorTests;
+			sourceTree = "<group>";
+		};
+		FF3317481ADDA44000F20C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3317491ADDA44000F20C38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3317301ADDA44000F20C38 /* GSizeInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF33174E1ADDA44000F20C38 /* Build configuration list for PBXNativeTarget "GSizeInspector" */;
+			buildPhases = (
+				FF33172D1ADDA44000F20C38 /* Sources */,
+				FF33172E1ADDA44000F20C38 /* Frameworks */,
+				FF33172F1ADDA44000F20C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSizeInspector;
+			productName = GSizeInspector;
+			productReference = FF3317311ADDA44000F20C38 /* GSizeInspector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3317431ADDA44000F20C38 /* GSizeInspectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3317511ADDA44000F20C38 /* Build configuration list for PBXNativeTarget "GSizeInspectorTests" */;
+			buildPhases = (
+				FF3317401ADDA44000F20C38 /* Sources */,
+				FF3317411ADDA44000F20C38 /* Frameworks */,
+				FF3317421ADDA44000F20C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3317461ADDA44000F20C38 /* PBXTargetDependency */,
+			);
+			name = GSizeInspectorTests;
+			productName = GSizeInspectorTests;
+			productReference = FF3317441ADDA44000F20C38 /* GSizeInspectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3317291ADDA44000F20C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					FF3317301ADDA44000F20C38 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF3317431ADDA44000F20C38 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FF3317301ADDA44000F20C38;
+					};
+				};
+			};
+			buildConfigurationList = FF33172C1ADDA44000F20C38 /* Build configuration list for PBXProject "GSizeInspector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3317281ADDA44000F20C38;
+			productRefGroup = FF3317321ADDA44000F20C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3317301ADDA44000F20C38 /* GSizeInspector */,
+				FF3317431ADDA44000F20C38 /* GSizeInspectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF33172F1ADDA44000F20C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF33173C1ADDA44000F20C38 /* Images.xcassets in Resources */,
+				FF33173F1ADDA44000F20C38 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3317421ADDA44000F20C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF33172D1ADDA44000F20C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF33173A1ADDA44000F20C38 /* main.m in Sources */,
+				FF3317381ADDA44000F20C38 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3317401ADDA44000F20C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF33174B1ADDA44000F20C38 /* GSizeInspectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3317461ADDA44000F20C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3317301ADDA44000F20C38 /* GSizeInspector */;
+			targetProxy = FF3317451ADDA44000F20C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF33173D1ADDA44000F20C38 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF33173E1ADDA44000F20C38 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF33174C1ADDA44000F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF33174D1ADDA44000F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF33174F1ADDA44000F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GSizeInspector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF3317501ADDA44000F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GSizeInspector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF3317521ADDA44000F20C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GSizeInspectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSizeInspector.app/Contents/MacOS/GSizeInspector";
+			};
+			name = Debug;
+		};
+		FF3317531ADDA44000F20C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GSizeInspectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSizeInspector.app/Contents/MacOS/GSizeInspector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF33172C1ADDA44000F20C38 /* Build configuration list for PBXProject "GSizeInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF33174C1ADDA44000F20C38 /* Debug */,
+				FF33174D1ADDA44000F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF33174E1ADDA44000F20C38 /* Build configuration list for PBXNativeTarget "GSizeInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF33174F1ADDA44000F20C38 /* Debug */,
+				FF3317501ADDA44000F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3317511ADDA44000F20C38 /* Build configuration list for PBXNativeTarget "GSizeInspectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3317521ADDA44000F20C38 /* Debug */,
+				FF3317531ADDA44000F20C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3317291ADDA44000F20C38 /* Project object */;
+}
