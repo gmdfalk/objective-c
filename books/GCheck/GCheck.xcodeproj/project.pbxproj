@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF721B291ADE4118007FDBC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF721B281ADE4118007FDBC7 /* AppDelegate.m */; };
+		FF721B2B1ADE4118007FDBC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF721B2A1ADE4118007FDBC7 /* main.m */; };
+		FF721B2D1ADE4118007FDBC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF721B2C1ADE4118007FDBC7 /* Images.xcassets */; };
+		FF721B301ADE4118007FDBC7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF721B2E1ADE4118007FDBC7 /* MainMenu.xib */; };
+		FF721B3C1ADE4118007FDBC7 /* GCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF721B3B1ADE4118007FDBC7 /* GCheckTests.m */; };
+		FF721B471ADE4121007FDBC7 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FF721B461ADE4121007FDBC7 /* Controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF721B361ADE4118007FDBC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF721B1A1ADE4118007FDBC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF721B211ADE4118007FDBC7;
+			remoteInfo = GCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF721B221ADE4118007FDBC7 /* GCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF721B261ADE4118007FDBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF721B271ADE4118007FDBC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF721B281ADE4118007FDBC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF721B2A1ADE4118007FDBC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF721B2C1ADE4118007FDBC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF721B2F1ADE4118007FDBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FF721B351ADE4118007FDBC7 /* GCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF721B3A1ADE4118007FDBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF721B3B1ADE4118007FDBC7 /* GCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCheckTests.m; sourceTree = "<group>"; };
+		FF721B451ADE4121007FDBC7 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		FF721B461ADE4121007FDBC7 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF721B1F1ADE4118007FDBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF721B321ADE4118007FDBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF721B191ADE4118007FDBC7 = {
+			isa = PBXGroup;
+			children = (
+				FF721B241ADE4118007FDBC7 /* GCheck */,
+				FF721B381ADE4118007FDBC7 /* GCheckTests */,
+				FF721B231ADE4118007FDBC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF721B231ADE4118007FDBC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF721B221ADE4118007FDBC7 /* GCheck.app */,
+				FF721B351ADE4118007FDBC7 /* GCheckTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF721B241ADE4118007FDBC7 /* GCheck */ = {
+			isa = PBXGroup;
+			children = (
+				FF721B271ADE4118007FDBC7 /* AppDelegate.h */,
+				FF721B281ADE4118007FDBC7 /* AppDelegate.m */,
+				FF721B2C1ADE4118007FDBC7 /* Images.xcassets */,
+				FF721B2E1ADE4118007FDBC7 /* MainMenu.xib */,
+				FF721B451ADE4121007FDBC7 /* Controller.h */,
+				FF721B461ADE4121007FDBC7 /* Controller.m */,
+				FF721B251ADE4118007FDBC7 /* Supporting Files */,
+			);
+			path = GCheck;
+			sourceTree = "<group>";
+		};
+		FF721B251ADE4118007FDBC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF721B261ADE4118007FDBC7 /* Info.plist */,
+				FF721B2A1ADE4118007FDBC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF721B381ADE4118007FDBC7 /* GCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF721B3B1ADE4118007FDBC7 /* GCheckTests.m */,
+				FF721B391ADE4118007FDBC7 /* Supporting Files */,
+			);
+			path = GCheckTests;
+			sourceTree = "<group>";
+		};
+		FF721B391ADE4118007FDBC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF721B3A1ADE4118007FDBC7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF721B211ADE4118007FDBC7 /* GCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF721B3F1ADE4118007FDBC7 /* Build configuration list for PBXNativeTarget "GCheck" */;
+			buildPhases = (
+				FF721B1E1ADE4118007FDBC7 /* Sources */,
+				FF721B1F1ADE4118007FDBC7 /* Frameworks */,
+				FF721B201ADE4118007FDBC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCheck;
+			productName = GCheck;
+			productReference = FF721B221ADE4118007FDBC7 /* GCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF721B341ADE4118007FDBC7 /* GCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF721B421ADE4118007FDBC7 /* Build configuration list for PBXNativeTarget "GCheckTests" */;
+			buildPhases = (
+				FF721B311ADE4118007FDBC7 /* Sources */,
+				FF721B321ADE4118007FDBC7 /* Frameworks */,
+				FF721B331ADE4118007FDBC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF721B371ADE4118007FDBC7 /* PBXTargetDependency */,
+			);
+			name = GCheckTests;
+			productName = GCheckTests;
+			productReference = FF721B351ADE4118007FDBC7 /* GCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF721B1A1ADE4118007FDBC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					FF721B211ADE4118007FDBC7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF721B341ADE4118007FDBC7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FF721B211ADE4118007FDBC7;
+					};
+				};
+			};
+			buildConfigurationList = FF721B1D1ADE4118007FDBC7 /* Build configuration list for PBXProject "GCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF721B191ADE4118007FDBC7;
+			productRefGroup = FF721B231ADE4118007FDBC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF721B211ADE4118007FDBC7 /* GCheck */,
+				FF721B341ADE4118007FDBC7 /* GCheckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF721B201ADE4118007FDBC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF721B2D1ADE4118007FDBC7 /* Images.xcassets in Resources */,
+				FF721B301ADE4118007FDBC7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF721B331ADE4118007FDBC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF721B1E1ADE4118007FDBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF721B2B1ADE4118007FDBC7 /* main.m in Sources */,
+				FF721B291ADE4118007FDBC7 /* AppDelegate.m in Sources */,
+				FF721B471ADE4121007FDBC7 /* Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF721B311ADE4118007FDBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF721B3C1ADE4118007FDBC7 /* GCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF721B371ADE4118007FDBC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF721B211ADE4118007FDBC7 /* GCheck */;
+			targetProxy = FF721B361ADE4118007FDBC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF721B2E1ADE4118007FDBC7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF721B2F1ADE4118007FDBC7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF721B3D1ADE4118007FDBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF721B3E1ADE4118007FDBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF721B401ADE4118007FDBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF721B411ADE4118007FDBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF721B431ADE4118007FDBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCheck.app/Contents/MacOS/GCheck";
+			};
+			name = Debug;
+		};
+		FF721B441ADE4118007FDBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCheck.app/Contents/MacOS/GCheck";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF721B1D1ADE4118007FDBC7 /* Build configuration list for PBXProject "GCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF721B3D1ADE4118007FDBC7 /* Debug */,
+				FF721B3E1ADE4118007FDBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF721B3F1ADE4118007FDBC7 /* Build configuration list for PBXNativeTarget "GCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF721B401ADE4118007FDBC7 /* Debug */,
+				FF721B411ADE4118007FDBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF721B421ADE4118007FDBC7 /* Build configuration list for PBXNativeTarget "GCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF721B431ADE4118007FDBC7 /* Debug */,
+				FF721B441ADE4118007FDBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF721B1A1ADE4118007FDBC7 /* Project object */;
+}
