@@ -2,7 +2,7 @@
 //  GRechnenTests.m
 //  GRechnenTests
 //
-//  Created by Falk, Geronimo on 13/04/15.
+//  Created by Max on 13/04/15.
 //
 //
 

@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  GCheck
 //
-//  Created by Falk, Geronimo on 15/04/15.
+//  Created by Max on 15/04/15.
 //
 //
 

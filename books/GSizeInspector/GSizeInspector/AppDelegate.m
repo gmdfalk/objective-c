@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  GSizeInspector
 //
-//  Created by Falk, Geronimo on 14/04/15.
+//  Created by Max on 14/04/15.
 //
 //
 
