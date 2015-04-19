@@ -403,6 +403,7 @@
 				FF33177C1ADE2E2300F20C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF33177D1ADE2E2300F20C38 /* Build configuration list for PBXNativeTarget "GPopUpTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +412,7 @@
 				FF33177F1ADE2E2300F20C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
