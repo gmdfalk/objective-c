@@ -12,7 +12,7 @@
 
 @interface ProblemTwoTests : XCTestCase
 
-@property NSArray *combinedList;
+@property NSArray *expected;
 @property NSArray *list1;
 @property NSArray *list2;
 
@@ -22,7 +22,7 @@
 
 - (void)setUp {
     [super setUp];
-    self.combinedList = @[@"a", @1, @"b", @2, @"c", @3];
+    self.expected = @[@"a", @1, @"b", @2, @"c", @3];
     self.list1 = @[@"a", @"b", @"c"];
     self.list2 = @[@1, @2, @3];
 }
@@ -33,7 +33,7 @@
 
 - (void)testCombineList {
     NSArray *result = [ProblemTwo combineList:self.list1 with:self.list2];
-    XCTAssertTrue([result isEqualToArray:self.combinedList]);
+    XCTAssertTrue([result isEqualToArray:self.expected]);
 }
 
 - (void)testCombineListPerformance {
