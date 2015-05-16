@@ -13,6 +13,9 @@
 		FF960BBB1B05264B003E5C1F /* ProblemFourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF960BBA1B05264B003E5C1F /* ProblemFourTests.m */; };
 		FF960BBC1B0530D4003E5C1F /* ProblemFour.m in Sources */ = {isa = PBXBuildFile; fileRef = FF960BB81B05263C003E5C1F /* ProblemFour.m */; };
 		FF960BBE1B053445003E5C1F /* ProblemThreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF960BBD1B053445003E5C1F /* ProblemThreeTests.m */; };
+		FF960BC11B076B83003E5C1F /* ProblemFive.m in Sources */ = {isa = PBXBuildFile; fileRef = FF960BC01B076B82003E5C1F /* ProblemFive.m */; };
+		FF960BC21B076B83003E5C1F /* ProblemFive.m in Sources */ = {isa = PBXBuildFile; fileRef = FF960BC01B076B82003E5C1F /* ProblemFive.m */; };
+		FF960BC41B076B9C003E5C1F /* ProblemFiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF960BC31B076B9C003E5C1F /* ProblemFiveTests.m */; };
 		FFAF69471AFFEBD8003E51F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF69461AFFEBD8003E51F0 /* main.m */; };
 		FFAF69561AFFEE4C003E51F0 /* ProblemOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF69551AFFEE4C003E51F0 /* ProblemOneTests.m */; };
 		FFAF695C1AFFF3AE003E51F0 /* ProblemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAF695B1AFFF3AE003E51F0 /* ProblemOne.m */; };
@@ -41,6 +44,9 @@
 		FF960BB81B05263C003E5C1F /* ProblemFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemFour.m; sourceTree = "<group>"; };
 		FF960BBA1B05264B003E5C1F /* ProblemFourTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemFourTests.m; sourceTree = "<group>"; };
 		FF960BBD1B053445003E5C1F /* ProblemThreeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemThreeTests.m; sourceTree = "<group>"; };
+		FF960BBF1B076B82003E5C1F /* ProblemFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemFive.h; sourceTree = "<group>"; };
+		FF960BC01B076B82003E5C1F /* ProblemFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemFive.m; sourceTree = "<group>"; };
+		FF960BC31B076B9C003E5C1F /* ProblemFiveTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemFiveTests.m; sourceTree = "<group>"; };
 		FFAF69431AFFEBD8003E51F0 /* FiveProblemsInOneHour */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FiveProblemsInOneHour; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAF69461AFFEBD8003E51F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFAF69511AFFEE4C003E51F0 /* FiveProblemsInOneHourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveProblemsInOneHourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +107,8 @@
 				FF960BB21B051D74003E5C1F /* ProblemThree.m */,
 				FF960BB71B05263B003E5C1F /* ProblemFour.h */,
 				FF960BB81B05263C003E5C1F /* ProblemFour.m */,
+				FF960BBF1B076B82003E5C1F /* ProblemFive.h */,
+				FF960BC01B076B82003E5C1F /* ProblemFive.m */,
 			);
 			path = FiveProblemsInOneHour;
 			sourceTree = "<group>";
@@ -108,10 +116,11 @@
 		FFAF69521AFFEE4C003E51F0 /* FiveProblemsInOneHourTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF960BBD1B053445003E5C1F /* ProblemThreeTests.m */,
 				FFAF69551AFFEE4C003E51F0 /* ProblemOneTests.m */,
 				FFAF69621AFFFA84003E51F0 /* ProblemTwoTests.m */,
+				FF960BBD1B053445003E5C1F /* ProblemThreeTests.m */,
 				FF960BBA1B05264B003E5C1F /* ProblemFourTests.m */,
+				FF960BC31B076B9C003E5C1F /* ProblemFiveTests.m */,
 				FFAF69531AFFEE4C003E51F0 /* Supporting Files */,
 			);
 			path = FiveProblemsInOneHourTests;
@@ -213,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFAF69601AFFFA75003E51F0 /* ProblemTwo.m in Sources */,
+				FF960BC11B076B83003E5C1F /* ProblemFive.m in Sources */,
 				FFAF695C1AFFF3AE003E51F0 /* ProblemOne.m in Sources */,
 				FF960BB31B051D74003E5C1F /* ProblemThree.m in Sources */,
 				FFAF69471AFFEBD8003E51F0 /* main.m in Sources */,
@@ -231,6 +241,8 @@
 				FFAF695D1AFFF686003E51F0 /* ProblemOne.m in Sources */,
 				FF960BBC1B0530D4003E5C1F /* ProblemFour.m in Sources */,
 				FFAF69641AFFFA84003E51F0 /* ProblemTwoTests.m in Sources */,
+				FF960BC41B076B9C003E5C1F /* ProblemFiveTests.m in Sources */,
+				FF960BC21B076B83003E5C1F /* ProblemFive.m in Sources */,
 				FFAF69561AFFEE4C003E51F0 /* ProblemOneTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

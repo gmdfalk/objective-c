@@ -25,8 +25,15 @@
 }
 
 - (void)testFindLargestNumber {
-    NSInteger result = [ProblemFour findLargestNumber:@[@50, @9, @12, @3, @84]];
+    NSInteger result;
+    result = [ProblemFour findLargestNumber:@[@50, @9, @12, @3, @84]];
     XCTAssertTrue(result == 98450312);
+    result = [ProblemFour findLargestNumber:@[@50, @2, @1, @9]];
+    XCTAssertTrue(result == 95021);
+//    result = [ProblemFour findLargestNumber:@[@420, @42, @423]];
+//    XCTAssertTrue(result == 42423420);
+//    result = [ProblemFour findLargestNumber:@[@5, @50, @56]];
+//    XCTAssertTrue(result == 56550);
 }
 
 - (void)testFindLargestNumberPerformance {
