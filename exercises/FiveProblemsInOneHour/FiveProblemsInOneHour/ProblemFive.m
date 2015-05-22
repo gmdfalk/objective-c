@@ -26,6 +26,7 @@
 
 + (NSArray *)createPermutations:(NSArray *)pool {
     NSMutableArray *permutations = [NSMutableArray new];
+    NSArray *delimiters = @[@"+", @"-", @""];
 
 
     return permutations;
