@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FF5C47541B10D2DE008AAFE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C47531B10D2DE008AAFE2 /* main.m */; };
 		FF5C477D1B10D407008AAFE2 /* CodechefTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C477C1B10D407008AAFE2 /* CodechefTests.m */; };
+		FF5C47831B10D54B008AAFE2 /* AmbiguousPermutations.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C47821B10D54B008AAFE2 /* AmbiguousPermutations.m */; };
+		FF5C47841B10D54B008AAFE2 /* AmbiguousPermutations.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C47821B10D54B008AAFE2 /* AmbiguousPermutations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		FF5C47781B10D407008AAFE2 /* CodechefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodechefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5C477B1B10D407008AAFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF5C477C1B10D407008AAFE2 /* CodechefTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodechefTests.m; sourceTree = "<group>"; };
+		FF5C47811B10D54B008AAFE2 /* AmbiguousPermutations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmbiguousPermutations.h; sourceTree = "<group>"; };
+		FF5C47821B10D54B008AAFE2 /* AmbiguousPermutations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmbiguousPermutations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				FF5C47531B10D2DE008AAFE2 /* main.m */,
+				FF5C47811B10D54B008AAFE2 /* AmbiguousPermutations.h */,
+				FF5C47821B10D54B008AAFE2 /* AmbiguousPermutations.m */,
 			);
 			path = codechef;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5C47541B10D2DE008AAFE2 /* main.m in Sources */,
+				FF5C47831B10D54B008AAFE2 /* AmbiguousPermutations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF5C477D1B10D407008AAFE2 /* CodechefTests.m in Sources */,
+				FF5C47841B10D54B008AAFE2 /* AmbiguousPermutations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

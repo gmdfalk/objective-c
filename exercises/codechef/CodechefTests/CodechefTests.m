@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
+#import "AmbiguousPermutations.h"
 
 @interface CodechefTests : XCTestCase
 
@@ -17,24 +18,16 @@
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
 - (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+    XCTAssertTrue([[AmbiguousPermutations main:4 withInput:@"1 4 3 2"] isEqualToString:@"ambiguous"]);
+    XCTAssertTrue([[AmbiguousPermutations main:5 withInput:@"2 3 4 5 1"] isEqualToString:@"unambiguous"]);
+    XCTAssertTrue([[AmbiguousPermutations main:1 withInput:@"1"] isEqualToString:@"ambiguous"]);
 }
 
 @end
